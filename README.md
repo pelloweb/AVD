@@ -1,10 +1,9 @@
 # **README.md — Versión Mejorada (AVD)**
 
 ## **Adaptive Visual Dynamics (AVD)**  
-AVD is a **universal algorithmic procedure** designed to generate dynamic visual‑presentation rules based on correctable optical parameters.  
-Its purpose is to improve digital readability and visual comfort for users with conditions such as astigmatism, hyperopia, or presbyopia.
+AVD is a universal algorithmic procedure and emerging technical standard designed to generate dynamic visual‑presentation rules based on correctable optical parameters. Its purpose is to improve digital readability and visual comfort for users with conditions such as astigmatism, hyperopia, or presbyopia.
 
-AVD is not a medical device; it is a **technical specification** that can be implemented in any digital interface.
+AVD is not a medical device; it is a technical specification that can be implemented in any digital interface.
 
 ---
 
@@ -13,7 +12,7 @@ AVD is not a medical device; it is a **technical specification** that can be imp
 - Generates personalized visual‑presentation rules  
 - Works with standard optometric parameters: **Sphere**, **Cylinder**, **Axis**, **Addition**  
 - Produces recommendations for text size, spacing, contrast, and density  
-- Independent of programming language  
+- Independent of programming language and platform
 - Suitable for web, mobile, OS‑level accessibility, and digital readers  
 - Fully documented in both English and Spanish
 
@@ -50,6 +49,8 @@ These values are normalized and transformed into internal coefficients that dete
 
 The algorithm then produces a **visual profile** and a set of **presentation rules** that can be applied to any digital interface.
 
+The algorithm does not generate executable code. Instead, it produces descriptive rules that can be implemented by any digital system.
+
 ---
 
 ## **📂 Repository Structure**
@@ -72,6 +73,7 @@ AVD/
 │
 └── .gitignore                # Repository hygiene rules
 ```
+This repository is structured to support future extensions, including prototypes, accessibility modules, and implementation guidelines.
 
 ---
 
@@ -85,6 +87,7 @@ Future steps include:
 - AI‑assisted personalization  
 - Integration with accessibility frameworks  
 - Publication of extended research
+- Standardization process and formal specification publication
 
 ---
 
