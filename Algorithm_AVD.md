@@ -1,6 +1,6 @@
-# **Algorithm_AVD.md — Algorithmic Specification**
+# **Algorithm_AVD.md — Improved Version (English)**
 
-## **AVD Algorithm (Adaptive Visual Dynamics)**  
+## **AVD Algorithm Specification — Adaptive Visual Dynamics**  
 **Version:** 1.0  
 **Author:** Pelloweb  
 **License:** MIT (official English version)
@@ -9,12 +9,15 @@
 
 ## **1. Purpose of the Algorithm**
 
-The AVD algorithm defines a universal procedure for generating **dynamic digital presentation adjustments** based on correctable optical parameters.  
-Its goal is to improve readability and visual comfort without modifying clinical data or replacing optical correction.
+The AVD algorithm defines a **universal procedure** for generating dynamic digital‑presentation rules based on correctable optical parameters.  
+Its goal is to improve readability and visual comfort in digital environments without modifying clinical data or replacing optical correction.
+
+AVD is not an application or executable software.  
+It is a **technical specification and algorithmic procedure**.
 
 ---
 
-## **2. Algorithm Inputs**
+## **2. Inputs**
 
 The algorithm receives four standard optometric parameters:
 
@@ -23,83 +26,134 @@ The algorithm receives four standard optometric parameters:
 - **Axis (A)**  
 - **Addition (Add)**  
 
-These values are interpreted as factors affecting:
+These parameters influence:
 
 - contrast sensitivity,  
 - text size tolerance,  
+- spacing tolerance,  
 - optimal visual density,  
-- recommended spacing,  
-- content structure.
+- structural readability.
 
 ---
 
 ## **3. Algorithmic Procedure**
 
 ### **Step 1 — Parameter Normalization**  
-S, C, A, and Add are converted into an internal uniform range to avoid variations between optical systems.
+All input values (S, C, A, Add) are normalized into an internal uniform range.  
+This ensures consistency across different optical systems and prescriptions.
 
-### **Step 2 — Visual Sensitivity Calculation**  
-The algorithm generates coefficients representing:
+### **Step 2 — Sensitivity Coefficient Calculation**  
+The algorithm computes internal coefficients representing:
 
 - contrast tolerance,  
 - size tolerance,  
 - spacing tolerance.
 
+These coefficients form the basis of the adaptive rules.
+
 ### **Step 3 — Dynamic Rule Generation**  
-Based on the coefficients, the algorithm creates presentation rules:
+Based on the coefficients, AVD generates a set of presentation rules:
 
 - minimum text size,  
-- line spacing,  
-- paragraph spacing,  
-- minimum contrast,  
-- recommended visual density.
+- recommended line spacing,  
+- recommended paragraph spacing,  
+- minimum contrast level,  
+- optimal visual density.
 
-### **Step 4 — User Profile Construction**  
-The algorithm produces a visual profile summarizing:
+### **Step 4 — Visual Profile Construction**  
+The algorithm produces a **visual profile**, summarizing:
 
 - sensitivity level,  
-- optimal density level,  
-- recommended contrast level.
+- density level,  
+- contrast level.
 
-### **Step 5 — Final Output**  
-The algorithm returns a set of **applicable transformations** for digital interfaces:
+This profile can be used by any digital system to apply adaptive visual adjustments.
 
-- CSS adjustments,  
-- design recommendations,  
+### **Step 5 — Output Delivery**  
+The algorithm outputs a structured set of **presentation transformations**, such as:
+
+- CSS guidelines,  
 - accessibility parameters,  
-- block structure guidelines.
+- design recommendations,  
+- block‑structure rules.
+
+These outputs are descriptive, not executable.
 
 ---
 
-## **4. Algorithm Outputs**
+## **4. Outputs**
 
-The final output is a set of rules that can be applied by:
+The algorithm produces a set of rules that can be applied by:
 
 - web browsers,  
 - mobile applications,  
 - operating systems,  
 - digital readers,  
-- accessibility tools.
+- accessibility frameworks.
 
-The outputs are not executable code; they are **technical indications**.
-
----
-
-## **5. Limitations**
-
-- It is not a medical device.  
-- It does not interpret clinical data beyond its algorithmic purpose.  
-- It does not replace glasses or treatments.  
-- It requires external implementation.  
-- It does not guarantee clinical improvements, only readability improvements.
+The output is **implementation‑agnostic** and can be adapted to any platform.
 
 ---
 
-## **6. Next Steps**
+## **5. Scope**
 
+AVD is designed for:
+
+- users with **correctable** optical conditions,  
+- digital reading environments,  
+- text‑dominant interfaces,  
+- systems capable of dynamic adaptation.
+
+AVD does **not**:
+
+- replace optical correction,  
+- diagnose medical conditions,  
+- modify clinical data,  
+- act as a medical device.
+
+---
+
+## **6. Limitations**
+
+- Not a medical device.  
+- Does not interpret clinical data beyond its algorithmic purpose.  
+- Does not replace glasses or treatments.  
+- Requires external implementation.  
+- Improves readability, not clinical outcomes.
+
+---
+
+## **7. Compatibility**
+
+AVD can be integrated into:
+
+- HTML/CSS/JS  
+- mobile applications  
+- operating systems  
+- digital readers  
+- accessibility tools  
+- text‑rendering engines
+
+The algorithm is independent of programming language.
+
+---
+
+## **8. Research and Development**
+
+Future research areas include:
+
+- refinement of readability‑based rules,  
+- real‑time dynamic adaptation,  
+- AI‑assisted personalization,  
+- predictive visual‑fatigue models,  
+- AR/VR compatibility.
+
+---
+
+## **9. Next Steps**
+
+- Prototype implementation  
 - User validation  
-- Coefficient refinement  
-- AI integration  
-- Multiplatform prototype  
-- Publication of the full standard
-
+- Extended documentation  
+- Publication of full standard  
+- Public release of the repository
