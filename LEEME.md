@@ -1,58 +1,62 @@
-# **LEEME.md — Versión Mejorada (AVD)**
-
-## **Adaptive Visual Dynamics (AVD)**  
-AVD es un **procedimiento algorítmico universal** diseñado para generar reglas dinámicas de presentación visual basadas en parámetros ópticos corregibles.  
+LEEME.md — Final corregido (AVD)
+Adaptive Visual Dynamics (AVD)
+AVD es un procedimiento algorítmico universal y un estándar técnico emergente diseñado para generar reglas dinámicas de presentación visual basadas en parámetros ópticos corregibles.
 Su objetivo es mejorar la legibilidad y la comodidad visual en entornos digitales para usuarios con condiciones como astigmatismo, hipermetropía o presbicia.
 
-AVD no es un dispositivo médico; es una **especificación técnica** aplicable a cualquier interfaz digital.
+AVD no es un dispositivo médico; es una especificación técnica aplicable a cualquier interfaz digital.
 
----
+📌 Características principales
+Genera reglas de presentación personalizadas
 
-## **📌 Características principales**
+Utiliza parámetros optométricos estándar: Esfera, Cilindro, Eje, Adición
 
-- Genera reglas de presentación personalizadas  
-- Utiliza parámetros optométricos estándar: **Esfera**, **Cilindro**, **Eje**, **Adición**  
-- Produce recomendaciones sobre tamaño de texto, espaciado, contraste y densidad visual  
-- Independiente del lenguaje de programación  
-- Compatible con web, móvil, sistemas operativos y herramientas de accesibilidad  
-- Documentación completa en inglés y español
+Produce recomendaciones sobre tamaño de texto, espaciado, contraste y densidad visual
 
----
+Independiente del lenguaje de programación y de la plataforma
 
-## **📘 Documentación disponible**
+Compatible con web, móvil, sistemas operativos y herramientas de accesibilidad
 
+Documentación completa en inglés y español
+
+📘 Documentación disponible
 El repositorio incluye documentación bilingüe:
 
-- **Ficha Técnica** — Especificación completa del sistema  
-- **Algoritmo AVD** — Procedimiento algorítmico paso a paso  
-- **Nota de Jurisdicción** — Preferencia informativa de jurisdicción  
-- **Licencia MIT** — Versión oficial en inglés + traducción informativa  
+Ficha Técnica — Especificación completa del sistema
 
----
+Algoritmo AVD — Procedimiento algorítmico paso a paso
 
-## **🔧 Cómo funciona AVD**
+Nota de Jurisdicción — Preferencia informativa de jurisdicción
 
+Licencia MIT — Versión oficial en inglés + traducción informativa
+
+🔧 Cómo funciona AVD
 AVD recibe cuatro parámetros optométricos:
 
-- **Esfera**  
-- **Cilindro**  
-- **Eje**  
-- **Adición**  
+Esfera
+
+Cilindro
+
+Eje
+
+Adición
 
 Estos valores se normalizan y se transforman en coeficientes internos que determinan:
 
-- tolerancia al contraste  
-- tolerancia al tamaño del texto  
-- tolerancia al espaciado  
-- densidad visual óptima  
+tolerancia al contraste
 
-El algoritmo genera un **perfil visual** y un conjunto de **reglas de presentación** aplicables a cualquier interfaz digital.
+tolerancia al tamaño del texto
 
----
+tolerancia al espaciado
 
-## **📂 Estructura del repositorio**
+densidad visual óptima
 
-```
+El algoritmo no genera código ejecutable.
+Produce reglas descriptivas que pueden ser implementadas por cualquier sistema digital.
+
+El algoritmo genera un perfil visual y un conjunto de reglas de presentación aplicables a cualquier interfaz digital.
+
+📂 Estructura del repositorio
+Código
 AVD/
 │
 ├── README.md                 # Documentación principal (inglés)
@@ -69,25 +73,24 @@ AVD/
 ├── Algoritmo_AVD.md          # Algoritmo AVD (español)
 │
 └── .gitignore                # Reglas de higiene del repositorio
-```
+Este repositorio está preparado para futuras extensiones, incluyendo prototipos, módulos de accesibilidad y guías de implementación.
 
----
-
-## **🚀 Desarrollo futuro**
-
-AVD es actualmente un estándar algorítmico documentado.  
+🚀 Desarrollo futuro
+AVD es actualmente un estándar algorítmico documentado.
 Los próximos pasos incluyen:
 
-- Implementación de prototipos  
-- Pruebas con usuarios reales  
-- Personalización asistida por IA  
-- Integración con frameworks de accesibilidad  
-- Publicación de investigación ampliada
+Implementación de prototipos
 
----
+Pruebas con usuarios reales
 
-## **👤 Autor**
+Personalización asistida por IA
 
-**Pelloweb**  
+Integración con frameworks de accesibilidad
+
+Publicación de investigación ampliada
+
+Proceso de estandarización y publicación formal de la especificación
+
+👤 Autor
+Pelloweb  
 Creador del procedimiento algorítmico AVD.
-
