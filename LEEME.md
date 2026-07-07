@@ -74,6 +74,7 @@ AVD/
 │
 └── .gitignore                # Reglas de higiene del repositorio
 
+
 Este repositorio está preparado para futuras extensiones, incluyendo prototipos, módulos de accesibilidad y guías de implementación.
 
 🚀 Desarrollo futuro
