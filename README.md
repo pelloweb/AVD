@@ -1,4 +1,4 @@
-# **README.md — Improved Version (AVD Project)**
+# **README.md — Versión Mejorada (AVD)**
 
 ## **Adaptive Visual Dynamics (AVD)**  
 AVD is a **universal algorithmic procedure** designed to generate dynamic visual‑presentation rules based on correctable optical parameters.  
@@ -14,7 +14,7 @@ AVD is not a medical device; it is a **technical specification** that can be imp
 - Works with standard optometric parameters: **Sphere**, **Cylinder**, **Axis**, **Addition**  
 - Produces recommendations for text size, spacing, contrast, and density  
 - Independent of programming language  
-- Suitable for web, mobile, OS-level accessibility, and digital readers  
+- Suitable for web, mobile, OS‑level accessibility, and digital readers  
 - Fully documented in both English and Spanish
 
 ---
@@ -24,7 +24,7 @@ AVD is not a medical device; it is a **technical specification** that can be imp
 AVD includes complete bilingual documentation:
 
 - **Technical Sheet** — Full specification of the system  
-- **Algorithm Specification** — Step-by-step algorithm procedure  
+- **Algorithm Specification** — Step‑by‑step algorithm procedure  
 - **Jurisdiction Note** — Informative legal preference  
 - **MIT License** — English original + Spanish translation  
 
@@ -92,3 +92,5 @@ Future steps include:
 
 **Pelloweb**  
 Creator of the AVD algorithmic procedure.
+
+
