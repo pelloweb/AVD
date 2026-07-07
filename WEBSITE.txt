@@ -1,0 +1,6 @@
+Adaptive Visual Dynamics (AVD) es un estándar técnico emergente que transforma parámetros optométricos corregibles en reglas visuales adaptativas para interfaces digitales. Su objetivo es mejorar la legibilidad y la accesibilidad mediante ajustes dinámicos de tamaño, contraste, espaciado y densidad visual.
+
+AVD es una especificación abierta, documentada en inglés y español, diseñada para integrarse en sistemas web, móviles, lectores digitales y herramientas de accesibilidad. El proyecto se publica bajo licencia MIT y está preparado para futuras extensiones, prototipos y procesos de estandarización formal.
+
+Repositorio oficial:
+https://github.com/pelloweb/AVD
