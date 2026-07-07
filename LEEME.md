@@ -56,7 +56,7 @@ Produce reglas descriptivas que pueden ser implementadas por cualquier sistema d
 El algoritmo genera un perfil visual y un conjunto de reglas de presentación aplicables a cualquier interfaz digital.
 
 📂 Estructura del repositorio
-Código
+
 AVD/
 │
 ├── README.md                 # Documentación principal (inglés)
@@ -73,6 +73,7 @@ AVD/
 ├── Algoritmo_AVD.md          # Algoritmo AVD (español)
 │
 └── .gitignore                # Reglas de higiene del repositorio
+
 Este repositorio está preparado para futuras extensiones, incluyendo prototipos, módulos de accesibilidad y guías de implementación.
 
 🚀 Desarrollo futuro
