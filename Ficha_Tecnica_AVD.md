@@ -1,39 +1,38 @@
-# 📄 **Ficha_Tecnica_AVD.md — Documento Técnico Completo**
+# **Ficha_Tecnica_AVD_ES.md — Versión Mejorada (Ficha Técnica en Español)**
 
-## **Ficha Técnica — AVD (Adaptive Visual Dynamics)**  
+## **Ficha Técnica — Adaptive Visual Dynamics (AVD)**  
 **Versión:** 1.0  
-**Naturaleza del proyecto:** Especificación técnica + procedimiento algorítmico  
-**Autor:** Pelloweb 
+**Autor:** Pelloweb  
 **Licencia:** MIT (versión oficial en inglés)
 
 ---
 
-## 🧩 **1. Motivación del proyecto**
+## **1. Motivación del Proyecto**
 
-La lectura en pantallas genera fatiga visual en usuarios con condiciones ópticas corregibles (astigmatismo, hipermetropía, presbicia).  
-Incluso con gafas, la presentación digital no siempre se adapta correctamente a sus características ópticas.
+La lectura digital puede generar incomodidad visual en usuarios con condiciones ópticas corregibles como astigmatismo, hipermetropía o presbicia.  
+Incluso con corrección óptica adecuada, el contenido digital no siempre se presenta de forma compatible con las características visuales de cada usuario.
 
-AVD propone un **procedimiento algorítmico universal** que genera reglas de presentación adaptadas a cada usuario, sin modificar datos médicos ni sustituir correcciones ópticas.
+AVD propone un **procedimiento algorítmico universal** que genera reglas de presentación adaptativa basadas en parámetros optométricos, sin modificar datos médicos ni sustituir la corrección óptica.
 
 ---
 
-## 🔍 **2. Naturaleza del algoritmo**
+## **2. Naturaleza del Algoritmo**
 
 AVD es un **algoritmo de adaptación visual** que:
 
 - recibe parámetros ópticos corregibles,  
-- los interpreta mediante reglas internas,  
-- genera ajustes dinámicos de presentación digital,  
-- y produce un conjunto de recomendaciones o transformaciones aplicables a interfaces, textos o contenidos.
+- los interpreta mediante reglas internas de normalización,  
+- genera ajustes dinámicos de presentación,  
+- y produce un conjunto de recomendaciones aplicables a interfaces digitales.
 
-No es una aplicación ni un software ejecutable:  
-es una **especificación técnica y un procedimiento algorítmico**.
+AVD no es una aplicación ni un software ejecutable.  
+Es una **especificación técnica y un procedimiento algorítmico**.
 
 ---
 
-## 🧠 **3. Parámetros ópticos utilizados (entradas)**
+## **3. Parámetros Ópticos Utilizados (Entradas)**
 
-El algoritmo utiliza cuatro parámetros estándar de optometría:
+AVD utiliza cuatro parámetros optométricos estándar:
 
 - **Esfera (S)**  
 - **Cilindro (C)**  
@@ -43,26 +42,25 @@ El algoritmo utiliza cuatro parámetros estándar de optometría:
 Estos valores permiten calcular:
 
 - sensibilidad al contraste,  
-- tolerancia al tamaño de texto,  
+- tolerancia al tamaño del texto,  
 - densidad visual óptima,  
 - espaciado recomendado,  
-- estructura de contenido más legible.
+- mejoras estructurales de legibilidad.
 
 ---
 
-## 📤 **4. Salidas del algoritmo**
+## **4. Salidas del Algoritmo**
 
-AVD genera un conjunto de reglas de presentación que pueden incluir:
+El algoritmo produce un conjunto de reglas de presentación, que incluyen:
 
 - tamaño de texto recomendado,  
 - espaciado entre líneas,  
 - espaciado entre párrafos,  
 - contraste mínimo,  
 - densidad visual óptima,  
-- estructura de bloques,  
-- recomendaciones de diseño.
+- pautas de estructura de bloques.
 
-Estas reglas pueden ser aplicadas por:
+Estas reglas pueden aplicarse en:
 
 - interfaces web,  
 - aplicaciones móviles,  
@@ -72,35 +70,35 @@ Estas reglas pueden ser aplicadas por:
 
 ---
 
-## 📐 **5. Alcance del algoritmo**
+## **5. Alcance del Algoritmo**
 
 AVD está diseñado para:
 
 - usuarios con condiciones ópticas **corregibles**,  
-- entornos digitales de lectura,  
-- interfaces con texto predominante,  
-- sistemas que permiten adaptación dinámica.
+- entornos de lectura digital,  
+- interfaces dominadas por texto,  
+- sistemas capaces de adaptación dinámica.
 
-No pretende:
+AVD **no**:
 
-- sustituir correcciones ópticas,  
-- diagnosticar condiciones médicas,  
-- modificar datos clínicos,  
-- actuar como herramienta sanitaria.
+- sustituye la corrección óptica,  
+- diagnostica condiciones médicas,  
+- modifica datos clínicos,  
+- actúa como dispositivo médico.
 
 ---
 
-## ⚠️ **6. Limitaciones**
+## **6. Limitaciones**
 
 - No es un dispositivo médico.  
 - No interpreta datos clínicos más allá de su función algorítmica.  
 - No sustituye gafas ni tratamientos.  
-- No garantiza mejoras clínicas, solo mejoras de legibilidad.  
-- Requiere implementación externa (no es software ejecutable por sí mismo).
+- Requiere implementación externa.  
+- Mejora la legibilidad, no los resultados clínicos.
 
 ---
 
-## 🔧 **7. Compatibilidad**
+## **7. Compatibilidad**
 
 AVD puede integrarse en:
 
@@ -115,23 +113,24 @@ El algoritmo es independiente del lenguaje de programación.
 
 ---
 
-## 🧪 **8. Ruta de investigación**
+## **8. Línea de Investigación**
 
-Áreas futuras:
+Áreas de desarrollo futuro:
 
-- refinamiento de reglas según estudios de legibilidad,  
+- refinamiento de reglas basadas en legibilidad,  
 - adaptación dinámica en tiempo real,  
-- integración con IA para personalización avanzada,  
+- personalización asistida por IA,  
 - modelos predictivos de fatiga visual,  
-- compatibilidad con dispositivos AR/VR.
+- compatibilidad con AR/VR.
 
 ---
 
-## 🚀 **9. Próximos pasos**
+## **9. Próximos Pasos**
 
-- Implementación del prototipo  
+- Implementación de prototipos  
 - Validación con usuarios reales  
 - Documentación ampliada  
-- Publicación del algoritmo completo  
-- Apertura del repositorio al público
+- Publicación del estándar completo  
+- Lanzamiento público del repositorio
+
 
