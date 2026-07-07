@@ -1,61 +1,64 @@
-# **README.md — Versión Mejorada (AVD)**
-
-## **Adaptive Visual Dynamics (AVD)**  
-AVD is a universal algorithmic procedure and emerging technical standard designed to generate dynamic visual‑presentation rules based on correctable optical parameters. Its purpose is to improve digital readability and visual comfort for users with conditions such as astigmatism, hyperopia, or presbyopia.
+# **README.md — Final Release (AVD)**
+Adaptive Visual Dynamics (AVD)
+AVD is a universal algorithmic procedure and emerging technical standard designed to generate dynamic visual‑presentation rules based on correctable optical parameters.
+Its purpose is to improve digital readability and visual comfort for users with conditions such as astigmatism, hyperopia, or presbyopia.
 
 AVD is not a medical device; it is a technical specification that can be implemented in any digital interface.
 
----
+📌 Key Features
+Generates personalized visual‑presentation rules
 
-## **📌 Key Features**
+Works with standard optometric parameters: Sphere, Cylinder, Axis, Addition
 
-- Generates personalized visual‑presentation rules  
-- Works with standard optometric parameters: **Sphere**, **Cylinder**, **Axis**, **Addition**  
-- Produces recommendations for text size, spacing, contrast, and density  
-- Independent of programming language and platform
-- Suitable for web, mobile, OS‑level accessibility, and digital readers  
-- Fully documented in both English and Spanish
+Produces recommendations for text size, spacing, contrast, and density
 
----
+Independent of programming language and platform
 
-## **📘 Documentation**
+Suitable for web, mobile, OS‑level accessibility, and digital readers
 
+Fully documented in both English and Spanish
+
+📘 Documentation
 AVD includes complete bilingual documentation:
 
-- **Technical Sheet** — Full specification of the system  
-- **Algorithm Specification** — Step‑by‑step algorithm procedure  
-- **Jurisdiction Note** — Informative legal preference  
-- **MIT License** — English original + Spanish translation  
+Technical Sheet — Full specification of the system
+
+Algorithm Specification — Step‑by‑step algorithm procedure
+
+Jurisdiction Note — Informative legal preference
+
+MIT License — English original + Spanish translation
 
 All documents are available in both English and Spanish for clarity and accessibility.
 
----
-
-## **🔧 How AVD Works**
-
+🔧 How AVD Works
 AVD receives four optometric inputs:
 
-- **Sphere**  
-- **Cylinder**  
-- **Axis**  
-- **Addition**  
+Sphere
+
+Cylinder
+
+Axis
+
+Addition
 
 These values are normalized and transformed into internal coefficients that determine:
 
-- contrast tolerance  
-- text size tolerance  
-- spacing tolerance  
-- optimal visual density  
+contrast tolerance
 
-The algorithm then produces a **visual profile** and a set of **presentation rules** that can be applied to any digital interface.
+text size tolerance
 
-The algorithm does not generate executable code. Instead, it produces descriptive rules that can be implemented by any digital system.
+spacing tolerance
 
----
+optimal visual density
 
-## **📂 Repository Structure**
+The algorithm does not generate executable code.
+Instead, it produces descriptive rules that can be implemented by any digital system.
 
-```
+The algorithm then produces a visual profile and a set of presentation rules that can be applied to any digital interface.
+
+📂 Repository Structure
+Código
 AVD/
 │
 ├── README.md                 # Main documentation (English)
@@ -72,28 +75,26 @@ AVD/
 ├── Algoritmo_AVD.md          # Algorithm specification (Spanish)
 │
 └── .gitignore                # Repository hygiene rules
-```
 This repository is structured to support future extensions, including prototypes, accessibility modules, and implementation guidelines.
 
----
-
-## **🚀 Future Development**
-
-AVD is currently a documented algorithmic standard.  
+🚀 Future Development
+AVD is currently a documented algorithmic standard.
 Future steps include:
 
-- Prototype implementation  
-- Real‑world user testing  
-- AI‑assisted personalization  
-- Integration with accessibility frameworks  
-- Publication of extended research
-- Standardization process and formal specification publication
+Prototype implementation
 
----
+Real‑world user testing
 
-## **👤 Author**
+AI‑assisted personalization
 
-**Pelloweb**  
+Integration with accessibility frameworks
+
+Publication of extended research
+
+Standardization process and formal specification publication
+
+👤 Author
+Pelloweb  
 Creator of the AVD algorithmic procedure.
 
 
