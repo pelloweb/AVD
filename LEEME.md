@@ -1,66 +1,93 @@
-# 📄 **LEEME.md — COMPLETO (versión final)**
+# **LEEME.md — Versión Mejorada (AVD)**
 
-## **AVD — Especificación Técnica y Procedimiento Algorítmico**
+## **Adaptive Visual Dynamics (AVD)**  
+AVD es un **procedimiento algorítmico universal** diseñado para generar reglas dinámicas de presentación visual basadas en parámetros ópticos corregibles.  
+Su objetivo es mejorar la legibilidad y la comodidad visual en entornos digitales para usuarios con condiciones como astigmatismo, hipermetropía o presbicia.
 
-AVD es una **especificación técnica y un procedimiento algorítmico** diseñado para adaptar dinámicamente la presentación digital según los parámetros ópticos corregibles del usuario, con el objetivo de mejorar la legibilidad en pantallas.
-
----
-
-## 🔍 **Descripción general**
-
-El algoritmo utiliza cuatro parámetros ópticos:
-
-- Esfera  
-- Cilindro  
-- Eje  
-- Adición  
-
-A partir de ellos genera reglas dinámicas que ajustan:
-
-- Tamaño del texto  
-- Espaciado  
-- Contraste  
-- Densidad visual  
-- Estructura del contenido  
-
-Puedes ampliar en **Ficha Técnica** y **Algoritmo AVD**.
+AVD no es un dispositivo médico; es una **especificación técnica** aplicable a cualquier interfaz digital.
 
 ---
 
-## 📁 **Estructura del repositorio**
+## **📌 Características principales**
+
+- Genera reglas de presentación personalizadas  
+- Utiliza parámetros optométricos estándar: **Esfera**, **Cilindro**, **Eje**, **Adición**  
+- Produce recomendaciones sobre tamaño de texto, espaciado, contraste y densidad visual  
+- Independiente del lenguaje de programación  
+- Compatible con web, móvil, sistemas operativos y herramientas de accesibilidad  
+- Documentación completa en inglés y español
+
+---
+
+## **📘 Documentación disponible**
+
+El repositorio incluye documentación bilingüe:
+
+- **Ficha Técnica** — Especificación completa del sistema  
+- **Algoritmo AVD** — Procedimiento algorítmico paso a paso  
+- **Nota de Jurisdicción** — Preferencia informativa de jurisdicción  
+- **Licencia MIT** — Versión oficial en inglés + traducción informativa  
+
+---
+
+## **🔧 Cómo funciona AVD**
+
+AVD recibe cuatro parámetros optométricos:
+
+- **Esfera**  
+- **Cilindro**  
+- **Eje**  
+- **Adición**  
+
+Estos valores se normalizan y se transforman en coeficientes internos que determinan:
+
+- tolerancia al contraste  
+- tolerancia al tamaño del texto  
+- tolerancia al espaciado  
+- densidad visual óptima  
+
+El algoritmo genera un **perfil visual** y un conjunto de **reglas de presentación** aplicables a cualquier interfaz digital.
+
+---
+
+## **📂 Estructura del repositorio**
 
 ```
-/LICENSE                 ← Licencia MIT oficial (inglés)
-/Licencia_Español.md     ← Traducción informativa
-/Jurisdiccion.md         ← Nota de jurisdicción española
-/Ficha_Tecnica_AVD.md    ← Documento técnico completo
-/Algoritmo_AVD.md        ← Especificación del algoritmo
-/.gitignore              ← Lista de exclusión profesional
-/README.md               ← Documento principal en inglés
-/LEEME.md                ← Documento principal en castellano (este archivo)
+AVD/
+│
+├── README.md                 # Documentación principal (inglés)
+├── LEEME.md                  # Versión en español del README
+│
+├── LICENSE                   # Licencia MIT (versión oficial en inglés)
+├── Licencia_Español.md       # Traducción informativa al español
+├── Jurisdiccion.md           # Nota informativa de jurisdicción
+│
+├── Ficha_Tecnica_AVD.md      # Ficha técnica (inglés)
+├── Ficha_Tecnica_AVD_ES.md   # Ficha técnica (español)
+│
+├── Algorithm_AVD.md          # Algoritmo AVD (inglés)
+├── Algoritmo_AVD.md          # Algoritmo AVD (español)
+│
+└── .gitignore                # Reglas de higiene del repositorio
 ```
 
 ---
 
-## ⚖️ **Licencia**
+## **🚀 Desarrollo futuro**
 
-Este proyecto utiliza la licencia **MIT**.  
-La versión válida es la original en inglés.
+AVD es actualmente un estándar algorítmico documentado.  
+Los próximos pasos incluyen:
 
-La traducción al castellano está disponible en `Licencia_Español.md`.
-
----
-
-## 🌍 **Jurisdicción**
-
-El autor expresa su preferencia por los tribunales españoles para cuestiones legales relacionadas con el proyecto.  
-Ver `Jurisdiccion.md`.
+- Implementación de prototipos  
+- Pruebas con usuarios reales  
+- Personalización asistida por IA  
+- Integración con frameworks de accesibilidad  
+- Publicación de investigación ampliada
 
 ---
 
-## 🚀 **Próximos pasos**
+## **👤 Autor**
 
-- **Ampliar documentación**  
-- **Crear prototipo**  
-- **Explorar integración multiplataforma**  
+**Pelloweb**  
+Creador del procedimiento algorítmico AVD.
 
