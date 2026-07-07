@@ -57,22 +57,25 @@ El algoritmo genera un perfil visual y un conjunto de reglas de presentación ap
 
 📂 Estructura del repositorio
 
+```
 AVD/
 │
-├── README.md                 # Documentación principal (inglés)
-├── LEEME.md                  # Versión en español del README
+├── README.md                 # Main documentation (English)
+├── LEEME.md                  # Spanish version of README
 │
-├── LICENSE                   # Licencia MIT (versión oficial en inglés)
-├── Licencia_Español.md       # Traducción informativa al español
-├── Jurisdiccion.md           # Nota informativa de jurisdicción
+├── LICENSE                   # MIT License (official English version)
+├── Licencia_Español.md       # Informative Spanish translation
+├── Jurisdiccion.md           # Jurisdiction preference note
 │
-├── Ficha_Tecnica_AVD.md      # Ficha técnica (inglés)
-├── Ficha_Tecnica_AVD_ES.md   # Ficha técnica (español)
+├── Ficha_Tecnica_AVD.md      # Technical sheet (English)
+├── Ficha_Tecnica_AVD_ES.md   # Technical sheet (Spanish)
 │
-├── Algorithm_AVD.md          # Algoritmo AVD (inglés)
-├── Algoritmo_AVD.md          # Algoritmo AVD (español)
+├── Algorithm_AVD.md          # Algorithm specification (English)
+├── Algoritmo_AVD.md          # Algorithm specification (Spanish)
 │
-└── .gitignore                # Reglas de higiene del repositorio
+└── .gitignore                # Repository hygiene rules
+```
+
 
 
 Este repositorio está preparado para futuras extensiones, incluyendo prototipos, módulos de accesibilidad y guías de implementación.
