@@ -1,0 +1,66 @@
+# **AVD — Release Notes (v1.0)**
+
+## **Adaptive Visual Dynamics (AVD) — Official Public Release**
+
+AVD alcanza su primera versión pública como un **estándar técnico emergente** diseñado para transformar parámetros optométricos corregibles en **reglas visuales adaptativas** aplicables a cualquier interfaz digital.  
+Este lanzamiento marca la publicación completa de la documentación bilingüe y la consolidación del algoritmo como especificación abierta.
+
+---
+
+## **📘 Documentación incluida en esta versión**
+
+- **README** — Documentación principal en inglés  
+- **LEEME** — Versión en español del README  
+- **Ficha Técnica** — Descripción completa del estándar  
+- **Algoritmo AVD** — Procedimiento algorítmico detallado  
+- **Jurisdicción** — Nota informativa sobre interpretación legal  
+- **Licencia MIT** — Versión oficial en inglés + traducción informativa  
+
+Toda la documentación está disponible en **inglés y español**, garantizando accesibilidad y claridad internacional.
+
+---
+
+## **🔧 Características principales de la versión 1.0**
+
+- Definición completa del **procedimiento algorítmico AVD**  
+- Normalización de parámetros optométricos: Sphere, Cylinder, Axis, Addition  
+- Generación de reglas visuales adaptativas:  
+  - tamaño de texto  
+  - contraste mínimo  
+  - espaciado entre líneas y párrafos  
+  - densidad visual óptima  
+- Construcción del **perfil visual AVD**  
+- Documentación técnica bilingüe  
+- Estructura de repositorio preparada para futuras extensiones  
+- Licencia MIT oficial incluida
+
+---
+
+## **📂 Cambios y mejoras respecto a versiones internas**
+
+- Reescritura completa del README y LEEME  
+- Unificación terminológica entre inglés y español  
+- Ficha técnica revisada y ampliada  
+- Algoritmo documentado paso a paso  
+- Inclusión de nota de jurisdicción  
+- Traducción oficial informativa de la licencia MIT  
+- Estructura del repositorio reorganizada y profesionalizada  
+- Preparación para estandarización futura
+
+---
+
+## **🚀 Próximos pasos**
+
+- Desarrollo de prototipos de implementación  
+- Validación con usuarios reales  
+- Integración con frameworks de accesibilidad  
+- Personalización asistida por IA  
+- Publicación de documentación extendida  
+- Proceso de estandarización formal del estándar AVD
+
+---
+
+## **👤 Autor**
+
+**Pelloweb**  
+Creador del procedimiento algorítmico AVD.
