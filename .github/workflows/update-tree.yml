@@ -1,5 +1,8 @@
 name: Update Directory Tree
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
