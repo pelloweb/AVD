@@ -1,0 +1,31 @@
+name: Update Directory Tree
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install tree
+      run: |
+        sudo apt-get update
+        sudo apt-get install tree -y
+
+    - name: Generate directory tree
+      run: |
+        tree -I ".git" > DIRECTORY_TREE.md
+
+    - name: Commit updated tree
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+        git add DIRECTORY_TREE.md
+        git commit -m "Auto-update directory tree" || echo "No changes"
+        git push
