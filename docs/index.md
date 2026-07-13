@@ -16,14 +16,16 @@ Bienvenido a la documentación oficial del proyecto **AVD**, un concepto orienta
 
 ---
 
-## 📘 Documentación principal
+## 📘 Documentación principal {#documentacion}
+
 
 - [README (English)](https://github.com/pelloweb/AVD/blob/main/01.%20README.md)
 - [LEEME (Español)](https://github.com/pelloweb/AVD/blob/main/02.%20LEEME.md)
 
 ---
 
-## 📂 Documentos técnicos
+## 📂 Documentos técnicos {#tecnica}
+
 
 - [Ficha Técnica AVD (ES)](https://github.com/pelloweb/AVD/blob/main/04.%20Ficha_Tecnica_AVD.md)
 - [AVD Technical Sheet (EN)](https://github.com/pelloweb/AVD/blob/main/03.%20AVD%20Technical%20Sheet%20-%20Full%20Technical%20Document.md)
@@ -32,7 +34,8 @@ Bienvenido a la documentación oficial del proyecto **AVD**, un concepto orienta
 
 ---
 
-## 🧭 Estructura del repositorio
+## 🧭 Estructura del repositorio {#estructura}
+
 
 La estructura completa se actualiza automáticamente:
 
@@ -40,7 +43,8 @@ La estructura completa se actualiza automáticamente:
 
 ---
 
-## 📜 Licencias y legal
+## 📜 Licencias y legal {#legal}
+
 
 - [LICENSE](https://github.com/pelloweb/AVD/blob/main/07.%20LICENSE)
 - [Licencia en Español](https://github.com/pelloweb/AVD/blob/main/08.%20Licencia_Español.md)
@@ -48,7 +52,8 @@ La estructura completa se actualiza automáticamente:
 
 ---
 
-## 🚀 Estado del proyecto
+## 🚀 Estado del proyecto {#estado}
+
 
 AVD es un concepto en evolución centrado en:
 
