@@ -19,7 +19,6 @@
     ├── assets
     │   ├── style.css
     │   └── theme.js
-    ├── index.md
-    └── static
+    └── index.md
 
-3 directories, 20 files
+3 directories, 19 files
