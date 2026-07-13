@@ -17,10 +17,12 @@
 ├── README.md
 └── docs
     ├── assets
-    │   ├── style.css
+    │   ├── docs
+    │   │   └── static
+    │   │       └── style.css
     │   └── theme.js
     ├── docs
     │   └── static
     └── index.md
 
-5 directories, 19 files
+7 directories, 19 files
