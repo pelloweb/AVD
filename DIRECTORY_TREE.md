@@ -1,7 +1,7 @@
 .
 ├── 01. README.md
 ├── 02. LEEME.md
-├── 03. AVD Technical Sheet — Full Technical Document.md
+├── 03. AVD Technical Sheet - Full Technical Document.md
 ├── 04. Ficha_Tecnica_AVD.md
 ├── 05. Algorithm_AVD.md
 ├── 06. Algoritmo_AVD.md
