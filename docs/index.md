@@ -94,7 +94,91 @@ Este sitio se actualiza automáticamente con cada commit en la rama `main`.
 </details>
 
 <style>
-/* === COPIA AQUÍ TODO EL CONTENIDO DE style.css === */
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+/* ------------------------------
+    }
+
+    body {
+        padding: 0 10px;
+    }
+}
+/* ------------------------------
+   Mejoras de contraste en modo oscuro
+   ------------------------------ */
+
+body.dark-mode a {
+    color: #7ab8ff;
+}
+
+body.dark-mode header {
+    border-bottom: 1px solid #55555555;
+}
+
+body.dark-mode nav a:hover {
+    color: #ffffff;
+}
+/* ------------------------------
+   Estilos para acordeones
+   ------------------------------ */
+
+details {
+    background-color: var(--header-bg);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+details summary {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+details[open] {
+    background-color: var(--button-bg);
+}
+
 </style>
 
 <script src="assets/theme.js"></script>
