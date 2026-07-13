@@ -14,7 +14,6 @@
 ├── 13. Continuidad_AVD.md
 ├── 14. Release Notes oficiales de AVD
 ├── DIRECTORY_TREE.md
-├── README.md
-└── REAME
+└── README.md
 
-1 directory, 17 files
+1 directory, 16 files
