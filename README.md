@@ -149,5 +149,3 @@ Si deseas contribuir:
 - Envía una **pull request**
 
 Con gusto se revisarán.
-
-Solo dime qué quieres que sea el siguiente paso.
