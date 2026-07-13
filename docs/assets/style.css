@@ -98,3 +98,29 @@ nav a {
     text-decoration: none;
     font-weight: 500;
 }
+/* ------------------------------
+   Ajustes para móviles
+   ------------------------------ */
+
+@media (max-width: 600px) {
+    header h2 {
+        font-size: 1rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 4px 6px;
+        font-size: 0.9rem;
+    }
+
+    .theme-toggle {
+        top: 10px;
+        right: 10px;
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    body {
+        padding: 0 10px;
+    }
+}
