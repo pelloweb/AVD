@@ -16,6 +16,8 @@
 ├── DIRECTORY_TREE.md
 ├── README.md
 └── docs
+    ├── assets
+    │   └── style.css
     └── index.md
 
-2 directories, 17 files
+3 directories, 18 files
