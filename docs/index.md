@@ -11,7 +11,6 @@
 
 
 <button id="theme-toggle-btn" class="theme-toggle" onclick="toggleTheme()">Modo oscuro 🌙</button>
-<button id="theme-toggle-btn" class="theme-toggle" onclick="toggleTheme()">Modo oscuro 🌙</button>
 <button id="lang-toggle-btn" class="theme-toggle" onclick="toggleLanguage()">Idioma: ES 🇪🇸</button>
 
 <link rel="stylesheet" href="assets/style.css">
