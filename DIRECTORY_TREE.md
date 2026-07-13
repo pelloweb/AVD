@@ -25,6 +25,7 @@
     │       └── static
     │           └── style.css
     ├── index.md
-    └── style.css
+    ├── style.css
+    └── theme.js
 
-8 directories, 20 files
+8 directories, 21 files
