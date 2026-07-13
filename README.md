@@ -1,14 +1,3 @@
-# AVD — Documentación principal
-
-Este repositorio contiene la documentación completa del proyecto AVD en dos idiomas:
-
-- **[README (English)](01.%20README.md)**
-- **[LEEME (Español)](02.%20LEEME.md)**
-
-Para más información técnica, consulta el resto de documentos numerados en la raíz del proyecto.
-
-- **[Estructura del proyecto](DIRECTORY_TREE.md)** (actualizada automáticamente)
-
 # 📘 AVD — Adaptive Vision Dynamics  
 ### *Documentación técnica oficial — Official Technical Documentation*
 
@@ -40,12 +29,10 @@ AVD is a technical concept focused on adaptive accessibility, intelligent intera
 # 📂 Documentación principal — Main Documentation
 
 📘 **English Documentation**  
-👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+👉 `https://github.com/pelloweb/AVD/blob/main/01.%20README.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F01.%2520README.md")
 
 📙 **Documentación en Español**  
-👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
-
-Ambos documentos contienen la descripción completa del proyecto en sus respectivos idiomas.
+👉 `https://github.com/pelloweb/AVD/blob/main/02.%20LEEME.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F02.%2520LEEME.md")
 
 ---
 
@@ -53,66 +40,62 @@ Ambos documentos contienen la descripción completa del proyecto en sus respecti
 
 La estructura completa del repositorio se actualiza automáticamente en cada push mediante GitHub Actions.
 
-👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
+👉 `https://github.com/pelloweb/AVD/blob/main/DIRECTORY_TREE.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2FDIRECTORY_TREE.md")  
 *(Actualizado automáticamente — Automatically updated)*
 
 ---
 
 # 📄 Documentos técnicos — Technical Documents
 
-A continuación se listan los documentos técnicos incluidos en el repositorio, con una breve descripción:
-
 ### 🇬🇧 English
+
 - **AVD Technical Sheet — Full Technical Document**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Complete technical specification of AVD.
+  👉 `https://github.com/pelloweb/AVD/blob/main/03.%20AVD%20Technical%20Sheet%20-%20Full%20Technical%20Document.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F03.%2520AVD%2520Technical%2520Sheet%2520-%2520Full%2520Technical%2520Document.md")
 
 - **Algorithm_AVD.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  English version of the algorithmic description.
+  👉 `https://github.com/pelloweb/AVD/blob/main/05.%20Algorithm_AVD.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F05.%2520Algorithm_AVD.md")
+
+---
 
 ### 🇪🇸 Español
+
 - **Ficha_Tecnica_AVD.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Documento técnico completo en español.
+  👉 `https://github.com/pelloweb/AVD/blob/main/04.%20Ficha_Tecnica_AVD.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F04.%2520Ficha_Tecnica_AVD.md")
 
 - **Algoritmo_AVD.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Versión en español del algoritmo.
+  👉 `https://github.com/pelloweb/AVD/blob/main/06.%20Algoritmo_AVD.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F06.%2520Algoritmo_AVD.md")
+
+---
 
 ### 📜 Legal / Licencias
+
 - **LICENSE**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Licencia oficial del proyecto.
+  👉 `https://github.com/pelloweb/AVD/blob/main/07.%20LICENSE` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F07.%2520LICENSE")
 
 - **Licencia_Español.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Versión traducida al español.
+  👉 `https://github.com/pelloweb/AVD/blob/main/08.%20Licencia_Español.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F08.%2520Licencia_Espa%25C3%25B1ol.md")
 
 - **Jurisdiccion.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Consideraciones legales y jurisdicción.
+  👉 `https://github.com/pelloweb/AVD/blob/main/09.%20Jurisdiccion.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F09.%2520Jurisdiccion.md")
+
+---
 
 ### 📝 Otros documentos
+
 - **CHANGELOG.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Historial de cambios del proyecto.
+  👉 `https://github.com/pelloweb/AVD/blob/main/10.%20CHANGELOG.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F10.%2520CHANGELOG.md")
 
 - **WEBSITE.txt**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Información sobre la presencia web del proyecto.
+  👉 `https://github.com/pelloweb/AVD/blob/main/11.%20WEBSITE.txt` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F11.%2520WEBSITE.txt")
 
 - **Future work AVD.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Plan de trabajo futuro.
+  👉 `https://github.com/pelloweb/AVD/blob/main/12.%20Future%20work%20AVD.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F12.%2520Future%2520work%2520AVD.md")
 
 - **Continuidad_AVD.md**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Documento sobre la continuidad del proyecto.
+  👉 `https://github.com/pelloweb/AVD/blob/main/13.%20Continuidad_AVD.md` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F13.%2520Continuidad_AVD.md")
 
 - **Release Notes oficiales de AVD**  
-  👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
-  Notas de lanzamiento oficiales.
+  👉 `https://github.com/pelloweb/AVD/blob/main/14.%20Release%20Notes%20oficiales%20de%20AVD` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F14.%2520Release%2520Notes%2520oficiales%2520de%2520AVD")
 
 ---
 
@@ -141,7 +124,7 @@ Este proyecto incluye:
 
 # 🌐 Sitio web — Website
 
-👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+👉 `https://github.com/pelloweb/AVD/blob/main/11.%20WEBSITE.txt` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fpelloweb%2FAVD%2Fblob%2Fmain%2F11.%2520WEBSITE.txt")
 
 Información sobre la presencia web del proyecto.
 
@@ -165,4 +148,6 @@ Si deseas contribuir:
 - Abre un **issue**  
 - Envía una **pull request**
 
-Con gusto lo revisarán.
+Con gusto se revisarán.
+
+Solo dime qué quieres que sea el siguiente paso.
