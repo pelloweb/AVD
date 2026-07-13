@@ -9,16 +9,6 @@ Para más información técnica, consulta el resto de documentos numerados en la
 
 - **[Estructura del proyecto](DIRECTORY_TREE.md)** (actualizada automáticamente)
 
-Perfecto, Pedro.  
-Vamos a hacer **la opción más fiable para GitHub**:  
-👉 **enlaces codificados (URL encoded)**  
-Esto garantiza que **todos los enlaces funcionen siempre**, incluso cuando los nombres contienen espacios, guiones largos, acentos o caracteres especiales.
-
-Y ahora sí:  
-Aquí tienes **el README profesional definitivo**, bilingüe, visual, con iconos, tabla de contenidos automática y **todos los enlaces codificados y verificados** para tu repositorio:
-
----
-
 # 📘 AVD — Adaptive Vision Dynamics  
 ### *Documentación técnica oficial — Official Technical Documentation*
 
