@@ -7,7 +7,7 @@
 ├── 06. Algoritmo_AVD.md
 ├── 07. LICENSE
 ├── 08. Licencia_Español.md
-├── 09, Jurisdiccion.md
+├── 09. Jurisdiccion.md
 ├── 10. CHANGELOG.md
 ├── 11. WEBSITE.txt
 ├── 12. Future work AVD.md
