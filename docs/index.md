@@ -93,4 +93,8 @@ Este sitio se actualiza automáticamente con cada commit en la rama `main`.
   </ul>
 </details>
 
+<style>
+/* === COPIA AQUÍ TODO EL CONTENIDO DE style.css === */
+</style>
+
 <script src="assets/theme.js"></script>
