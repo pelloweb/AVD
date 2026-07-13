@@ -124,3 +124,18 @@ nav a {
         padding: 0 10px;
     }
 }
+/* ------------------------------
+   Mejoras de contraste en modo oscuro
+   ------------------------------ */
+
+body.dark-mode a {
+    color: #7ab8ff;
+}
+
+body.dark-mode header {
+    border-bottom: 1px solid #55555555;
+}
+
+body.dark-mode nav a:hover {
+    color: #ffffff;
+}
