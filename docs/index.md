@@ -74,4 +74,19 @@ Documentos relevantes:
 
 Este sitio se actualiza automáticamente con cada commit en la rama `main`.
 
+<details>
+  <summary>¿Qué es AVD?</summary>
+  <p>AVD es un concepto orientado a la accesibilidad visual, la legibilidad adaptativa y la optimización de contenidos en pantallas de visualización.</p>
+</details>
+
+<details>
+  <summary>Objetivos del proyecto</summary>
+  <ul>
+    <li>Mejorar la legibilidad</li>
+    <li>Adaptar contenidos a pantallas grandes y pequeñas</li>
+    <li>Reducir la fatiga visual</li>
+    <li>Optimizar la experiencia del usuario</li>
+  </ul>
+</details>
+
 <script src="assets/theme.js"></script>
