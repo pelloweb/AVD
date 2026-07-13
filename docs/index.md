@@ -1,3 +1,15 @@
+<header>
+  <h2>AVD — Adaptive Vision Dynamics</h2>
+  <nav>
+    <a href="#documentacion">Documentación</a> |
+    <a href="#tecnica">Técnica</a> |
+    <a href="#estructura">Estructura</a> |
+    <a href="#legal">Legal</a> |
+    <a href="#estado">Estado</a>
+  </nav>
+</header>
+
+
 <button id="theme-toggle-btn" class="theme-toggle" onclick="toggleTheme()">Modo oscuro 🌙</button>
 
 Bienvenido a la documentación oficial del proyecto **AVD**, un concepto orientado a la accesibilidad visual, la legibilidad adaptativa y la optimización de contenidos en pantallas de visualización.
