@@ -53,7 +53,7 @@ Ambos documentos contienen la descripción completa del proyecto en sus respecti
 
 La estructura completa del repositorio se actualiza automáticamente en cada push mediante GitHub Actions.
 
-👉 **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
+👉 `[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`  
 *(Actualizado automáticamente — Automatically updated)*
 
 ---
@@ -63,43 +63,43 @@ La estructura completa del repositorio se actualiza automáticamente en cada pus
 A continuación se listan los documentos técnicos incluidos en el repositorio, con una breve descripción:
 
 ### 🇬🇧 English
-- **AVD Technical Sheet — Full Technical Document**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Complete technical specification of AVD.
 
-- **Algorithm_AVD.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   English version of the algorithmic description.
 
 ### 🇪🇸 Español
-- **Ficha_Tecnica_AVD.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Documento técnico completo en español.
 
-- **Algoritmo_AVD.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Versión en español del algoritmo.
 
 ### 📜 Legal / Licencias
-- **LICENSE**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Licencia oficial del proyecto.
 
-- **Licencia_Español.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Versión traducida al español.
 
-- **Jurisdiccion.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Consideraciones legales y jurisdicción.
 
 ### 📝 Otros documentos
-- **CHANGELOG.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Historial de cambios del proyecto.
 
-- **WEBSITE.txt**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Información sobre la presencia web del proyecto.
 
-- **Future work AVD.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Plan de trabajo futuro.
 
-- **Continuidad_AVD.md**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Documento sobre la continuidad del proyecto.
 
-- **Release Notes oficiales de AVD**  
+- **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**  
   Notas de lanzamiento oficiales.
 
 ---
@@ -131,7 +131,7 @@ Este proyecto incluye:
 
 Consulta:
 
-👉 **WEBSITE.txt**
+👉 **`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`**
 
 para información sobre la presencia web del proyecto.
 
@@ -155,4 +155,4 @@ Si deseas contribuir:
 - Abre un **issue**  
 - Envía una **pull request**
 
-Con gusto  lo revisarán.
+Con gusto lo revisarán.
