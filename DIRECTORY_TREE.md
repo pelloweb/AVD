@@ -21,8 +21,6 @@
     │   │   └── static
     │   │       └── style.css
     │   └── theme.js
-    ├── docs
-    │   └── static
     └── index.md
 
-7 directories, 19 files
+5 directories, 19 files
