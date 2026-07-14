@@ -13,7 +13,8 @@
 <button id="theme-toggle-btn" class="theme-toggle" onclick="toggleTheme()">Modo oscuro 🌙</button>
 <button id="lang-toggle-btn" class="theme-toggle" onclick="toggleLanguage()">Idioma: ES 🇪🇸</button>
 
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="style.css">
+
 
 
 Bienvenido a la documentación oficial del proyecto **AVD**, un concepto orientado a la accesibilidad visual, la legibilidad adaptativa y la optimización de contenidos en pantallas de visualización.
@@ -94,48 +95,7 @@ Este sitio se actualiza automáticamente con cada commit en la rama `main`.
 </details>
 
 <style>
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
-139
-140
-141
-142
-143
-144
-145
-146
-147
-148
-149
-150
-151
-152
-153
-154
-155
-156
-157
-158
-159
-160
-161
-162
+
 /* ------------------------------
     }
 
@@ -181,4 +141,5 @@ details[open] {
 
 </style>
 
-<script src="assets/theme.js"></script>
+<script src="theme.js"></script>
+
