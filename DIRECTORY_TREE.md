@@ -16,20 +16,18 @@
 ├── DIRECTORY_TREE.md
 ├── README.md
 ├── docs
-│   ├── assets
-│   │   └── docs
-│   │       ├── assets
-│   │       │   └── docs
-│   │       │       └── static
-│   │       │           └── theme.js
-│   │       └── static
-│   │           └── docs
-│   │               └── style.css
-│   ├── index.md
-│   └── theme.js
+│   └── assets
+│       └── docs
+│           ├── assets
+│           │   └── docs
+│           │       └── static
+│           │           └── theme.js
+│           └── static
+│               └── docs
+│                   └── style.css
 └── docs_clean
     ├── index.md
     ├── style.css
     └── theme.js
 
-10 directories, 23 files
+10 directories, 21 files
