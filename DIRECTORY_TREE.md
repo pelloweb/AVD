@@ -15,17 +15,18 @@
 ├── 14. Release Notes oficiales de AVD
 ├── DIRECTORY_TREE.md
 ├── README.md
-└── docs
-    ├── assets
-    │   └── docs
-    │       ├── assets
-    │       │   └── docs
-    │       │       └── static
-    │       │           └── theme.js
-    │       └── static
-    │           └── docs
-    │               └── style.css
-    ├── index.md
-    └── theme.js
+├── docs
+│   ├── assets
+│   │   └── docs
+│   │       ├── assets
+│   │       │   └── docs
+│   │       │       └── static
+│   │       │           └── theme.js
+│   │       └── static
+│   │           └── docs
+│   │               └── style.css
+│   ├── index.md
+│   └── theme.js
+└── docs_clean
 
-9 directories, 20 files
+10 directories, 20 files
