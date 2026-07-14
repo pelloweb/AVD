@@ -18,16 +18,13 @@
 ├── docs
 │   └── assets
 │       └── docs
-│           ├── assets
-│           │   └── docs
-│           │       └── static
-│           │           └── theme.js
-│           └── static
+│           └── assets
 │               └── docs
-│                   └── style.css
+│                   └── static
+│                       └── theme.js
 └── docs_clean
     ├── index.md
     ├── style.css
     └── theme.js
 
-10 directories, 21 files
+8 directories, 20 files
