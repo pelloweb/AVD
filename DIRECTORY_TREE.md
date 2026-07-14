@@ -28,6 +28,7 @@
 │   ├── index.md
 │   └── theme.js
 └── docs_clean
+    ├── index.md
     └── style.css
 
-10 directories, 21 files
+10 directories, 22 files
