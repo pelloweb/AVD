@@ -1,6 +1,6 @@
 /* -----------------------------------------
    AVD – Adaptive Vision Dynamics
-   Estilos + Modo oscuro
+   Estilos + Modo oscuro (versión segura)
 ----------------------------------------- */
 
 :root {
@@ -25,6 +25,7 @@ body {
     padding: 0;
 }
 
+/* HEADER */
 header {
     background: var(--header-bg);
     padding: 20px;
@@ -35,6 +36,7 @@ header {
     margin-top: 15px;
 }
 
+/* BUTTONS */
 button {
     background: var(--accent-color);
     color: white;
@@ -50,12 +52,14 @@ button:hover {
     opacity: 0.85;
 }
 
+/* MAIN CONTENT */
 main {
     padding: 20px;
     max-width: 800px;
     margin: auto;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
