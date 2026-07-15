@@ -1,88 +1,96 @@
-/* -----------------------------------------
-   AVD – Adaptive Vision Dynamics
-   Modo oscuro + Idiomas ES/EN
------------------------------------------ */
+let currentLang = "ES";
 
-// Diccionario de textos
-const AVD_TEXTS = {
-    es: {
-        title: "AVD – Adaptive Vision Dynamics",
-        sectionTitle: "Bienvenido",
-        sectionText: "AVD es un concepto experimental para interfaces adaptativas basadas en visión dinámica.",
-        footer: "© 2026 AVD Project",
-        themeLight: "Modo claro ☀️",
-        themeDark: "Modo oscuro 🌙",
-        langButton: "EN / ES"
-    },
-    en: {
-        title: "AVD – Adaptive Vision Dynamics",
-        sectionTitle: "Welcome",
-        sectionText: "AVD is an experimental concept for adaptive interfaces based on dynamic vision.",
-        footer: "© 2026 AVD Project",
-        themeLight: "Light mode ☀️",
-        themeDark: "Dark mode 🌙",
-        langButton: "ES / EN"
-    }
-};
-
-// Aplicar tema guardado
-(function () {
-    const savedTheme = localStorage.getItem("avd-theme");
-    if (savedTheme === "dark") {
-        document.body.classList.add("dark-mode");
-    }
-})();
-
-// Alternar tema claro/oscuro
-function toggleTheme() {
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("avd-theme", "dark");
-    } else {
-        localStorage.setItem("avd-theme", "light");
-    }
-
-    updateThemeButton();
-}
-
-// Actualizar texto del botón de tema
-function updateThemeButton() {
-    const btn = document.getElementById("theme-toggle-btn");
-    const lang = localStorage.getItem("avd-lang") || "es";
-
-    if (document.body.classList.contains("dark-mode")) {
-        btn.textContent = AVD_TEXTS[lang].themeLight;
-    } else {
-        btn.textContent = AVD_TEXTS[lang].themeDark;
-    }
-}
-
-// Aplicar idioma guardado
-function applyLanguage() {
-    const lang = localStorage.getItem("avd-lang") || "es";
-
-    document.getElementById("title").textContent = AVD_TEXTS[lang].title;
-    document.getElementById("section-title").textContent = AVD_TEXTS[lang].sectionTitle;
-    document.getElementById("section-text").textContent = AVD_TEXTS[lang].sectionText;
-    document.getElementById("footer-text").textContent = AVD_TEXTS[lang].footer;
-
-    document.getElementById("lang-toggle-btn").textContent = AVD_TEXTS[lang].langButton;
-
-    updateThemeButton();
-}
-
-// Alternar idioma ES/EN
 function toggleLanguage() {
-    const current = localStorage.getItem("avd-lang") || "es";
-    const next = current === "es" ? "en" : "es";
+    const langBtn = document.getElementById("lang-toggle-btn");
 
-    localStorage.setItem("avd-lang", next);
-    applyLanguage();
+    if (currentLang === "ES") {
+        currentLang = "EN";
+        langBtn.textContent = "Language: EN 🇬🇧";
+
+        // Títulos principales
+        document.getElementById("header-title").textContent = "AVD — Adaptive Vision Dynamics";
+        document.getElementById("section-text").textContent =
+            "Welcome to the official documentation of the AVD project, a concept focused on visual accessibility, adaptive readability, and content optimization on display screens.";
+
+        // Menú
+        document.getElementById("nav-doc").textContent = "Documentation";
+        document.getElementById("nav-tech").textContent = "Technical";
+        document.getElementById("nav-struct").textContent = "Structure";
+        document.getElementById("nav-legal").textContent = "Legal";
+        document.getElementById("nav-status").textContent = "Status";
+
+        // Secciones
+        document.getElementById("doc-title").textContent = "📘 Main Documentation";
+        document.getElementById("tech-title").textContent = "📂 Technical Documents";
+        document.getElementById("struct-title").textContent = "🧭 Repository Structure";
+        document.getElementById("struct-text").textContent = "The complete structure updates automatically:";
+        document.getElementById("legal-title").textContent = "📜 Licenses and Legal";
+        document.getElementById("status-title").textContent = "🚀 Project Status";
+        document.getElementById("status-text").textContent = "AVD is an evolving concept focused on:";
+        document.getElementById("status-docs").textContent = "Relevant documents:";
+        document.getElementById("web-title").textContent = "🌐 Project Website";
+        document.getElementById("web-text").textContent =
+            "This site updates automatically with each commit in the main branch.";
+
+        // Acordeones
+        document.getElementById("sum-what").textContent = "What is AVD?";
+        document.getElementById("sum-what-text").textContent =
+            "AVD is a concept focused on visual accessibility, adaptive readability, and content optimization on display screens.";
+
+        document.getElementById("sum-goals").textContent = "Project Goals";
+        document.getElementById("sum-goals-list").innerHTML = `
+            <li>Improve readability</li>
+            <li>Adapt content to large and small screens</li>
+            <li>Reduce visual fatigue</li>
+            <li>Optimize user experience</li>
+        `;
+
+        // Footer
+        document.getElementById("footer-text").textContent = "© 2026 AVD Project";
+
+    } else {
+        currentLang = "ES";
+        langBtn.textContent = "Idioma: ES 🇪🇸";
+
+        // Títulos principales
+        document.getElementById("header-title").textContent = "AVD — Adaptive Vision Dynamics";
+        document.getElementById("section-text").textContent =
+            "Bienvenido a la documentación oficial del proyecto AVD, un concepto orientado a la accesibilidad visual, la legibilidad adaptativa y la optimización de contenidos en pantallas de visualización.";
+
+        // Menú
+        document.getElementById("nav-doc").textContent = "Documentación";
+        document.getElementById("nav-tech").textContent = "Técnica";
+        document.getElementById("nav-struct").textContent = "Estructura";
+        document.getElementById("nav-legal").textContent = "Legal";
+        document.getElementById("nav-status").textContent = "Estado";
+
+        // Secciones
+        document.getElementById("doc-title").textContent = "📘 Documentación principal";
+        document.getElementById("tech-title").textContent = "📂 Documentos técnicos";
+        document.getElementById("struct-title").textContent = "🧭 Estructura del repositorio";
+        document.getElementById("struct-text").textContent = "La estructura completa se actualiza automáticamente:";
+        document.getElementById("legal-title").textContent = "📜 Licencias y legal";
+        document.getElementById("status-title").textContent = "🚀 Estado del proyecto";
+        document.getElementById("status-text").textContent = "AVD es un concepto en evolución centrado en:";
+        document.getElementById("status-docs").textContent = "Documentos relevantes:";
+        document.getElementById("web-title").textContent = "🌐 Sitio web del proyecto";
+        document.getElementById("web-text").textContent =
+            "Este sitio se actualiza automáticamente con cada commit en la rama main.";
+
+        // Acordeones
+        document.getElementById("sum-what").textContent = "¿Qué es AVD?";
+        document.getElementById("sum-what-text").textContent =
+            "AVD es un concepto orientado a la accesibilidad visual, la legibilidad adaptativa y la optimización de contenidos en pantallas de visualización.";
+
+        document.getElementById("sum-goals").textContent = "Objetivos del proyecto";
+        document.getElementById("sum-goals-list").innerHTML = `
+            <li>Mejorar la legibilidad</li>
+            <li>Adaptar contenidos a pantallas grandes y pequeñas</li>
+            <li>Reducir la fatiga visual</li>
+            <li>Optimizar la experiencia del usuario</li>
+        `;
+
+        // Footer
+        document.getElementById("footer-text").textContent = "© 2026 AVD Project";
+    }
 }
-
-// Inicializar al cargar
-document.addEventListener("DOMContentLoaded", () => {
-    applyLanguage();
-    updateThemeButton();
-});
