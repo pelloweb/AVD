@@ -1,9 +1,8 @@
-html
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>AVD — Adaptive Vision Dynamics</title>
+  <title id="title">AVD — Adaptive Vision Dynamics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- CSS externo -->
@@ -12,21 +11,22 @@ html
 <body>
 
 <header>
-  <h2>AVD — Adaptive Vision Dynamics</h2>
+  <h2 id="header-title">AVD — Adaptive Vision Dynamics</h2>
   <nav>
-    <a href="#documentacion">Documentación</a> |
-    <a href="#tecnica">Técnica</a> |
-    <a href="#estructura">Estructura</a> |
-    <a href="#legal">Legal</a> |
-    <a href="#estado">Estado</a>
+    <a href="#documentacion" id="nav-doc">Documentación</a> |
+    <a href="#tecnica" id="nav-tech">Técnica</a> |
+    <a href="#estructura" id="nav-struct">Estructura</a> |
+    <a href="#legal" id="nav-legal">Legal</a> |
+    <a href="#estado" id="nav-status">Estado</a>
   </nav>
 </header>
 
+<!-- Botones -->
 <button id="theme-toggle-btn" class="theme-toggle" onclick="toggleTheme()">Modo oscuro 🌙</button>
 <button id="lang-toggle-btn" class="theme-toggle" onclick="toggleLanguage()">Idioma: ES 🇪🇸</button>
 
 <main>
-  <p>
+  <p id="section-text">
     Bienvenido a la documentación oficial del proyecto <strong>AVD</strong>, un concepto orientado a la accesibilidad visual,
     la legibilidad adaptativa y la optimización de contenidos en pantallas de visualización.
   </p>
@@ -34,7 +34,7 @@ html
   <hr>
 
   <section id="documentacion">
-    <h3>📘 Documentación principal</h3>
+    <h3 id="doc-title">📘 Documentación principal</h3>
     <ul>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/01.%20README.md">README (English)</a></li>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/02.%20LEEME.md">LEEME (Español)</a></li>
@@ -44,7 +44,7 @@ html
   <hr>
 
   <section id="tecnica">
-    <h3>📂 Documentos técnicos</h3>
+    <h3 id="tech-title">📂 Documentos técnicos</h3>
     <ul>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/04.%20Ficha_Tecnica_AVD.md">Ficha Técnica AVD (ES)</a></li>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/03.%20AVD%20Technical%20Sheet%20-%20Full%20Technical%20Document.md">AVD Technical Sheet (EN)</a></li>
@@ -56,8 +56,8 @@ html
   <hr>
 
   <section id="estructura">
-    <h3>🧭 Estructura del repositorio</h3>
-    <p>La estructura completa se actualiza automáticamente:</p>
+    <h3 id="struct-title">🧭 Estructura del repositorio</h3>
+    <p id="struct-text">La estructura completa se actualiza automáticamente:</p>
     <ul>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/DIRECTORY_TREE.md">DIRECTORY_TREE.md</a></li>
     </ul>
@@ -66,7 +66,7 @@ html
   <hr>
 
   <section id="legal">
-    <h3>📜 Licencias y legal</h3>
+    <h3 id="legal-title">📜 Licencias y legal</h3>
     <ul>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/07.%20LICENSE">LICENSE</a></li>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/08.%20Licencia_Español.md">Licencia en Español</a></li>
@@ -77,8 +77,8 @@ html
   <hr>
 
   <section id="estado">
-    <h3>🚀 Estado del proyecto</h3>
-    <p>AVD es un concepto en evolución centrado en:</p>
+    <h3 id="status-title">🚀 Estado del proyecto</h3>
+    <p id="status-text">AVD es un concepto en evolución centrado en:</p>
     <ul>
       <li>accesibilidad visual</li>
       <li>legibilidad adaptativa</li>
@@ -86,7 +86,7 @@ html
       <li>optimización de contenidos</li>
     </ul>
 
-    <p>Documentos relevantes:</p>
+    <p id="status-docs">Documentos relevantes:</p>
     <ul>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/12.%20Future%20work%20AVD.md">Future Work AVD</a></li>
       <li><a href="https://github.com/pelloweb/AVD/blob/main/13.%20Continuidad_AVD.md">Continuidad AVD</a></li>
@@ -97,20 +97,20 @@ html
   <hr>
 
   <section>
-    <h3>🌐 Sitio web del proyecto</h3>
-    <p>Este sitio se actualiza automáticamente con cada commit en la rama <code>main</code>.</p>
+    <h3 id="web-title">🌐 Sitio web del proyecto</h3>
+    <p id="web-text">Este sitio se actualiza automáticamente con cada commit en la rama <code>main</code>.</p>
 
     <details>
-      <summary>¿Qué es AVD?</summary>
-      <p>
+      <summary id="sum-what">¿Qué es AVD?</summary>
+      <p id="sum-what-text">
         AVD es un concepto orientado a la accesibilidad visual, la legibilidad adaptativa y la optimización de contenidos
         en pantallas de visualización.
       </p>
     </details>
 
     <details>
-      <summary>Objetivos del proyecto</summary>
-      <ul>
+      <summary id="sum-goals">Objetivos del proyecto</summary>
+      <ul id="sum-goals-list">
         <li>Mejorar la legibilidad</li>
         <li>Adaptar contenidos a pantallas grandes y pequeñas</li>
         <li>Reducir la fatiga visual</li>
@@ -120,37 +120,9 @@ html
   </section>
 </main>
 
-<!-- CSS interno mínimo para acordeones y modo oscuro extra -->
-<style>
-details {
-  background-color: var(--header-bg);
-  padding: 10px;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  cursor: pointer;
-}
-
-details summary {
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-details[open] {
-  background-color: var(--button-bg);
-}
-
-body.dark-mode a {
-  color: #7ab8ff;
-}
-
-body.dark-mode header {
-  border-bottom: 1px solid #55555555;
-}
-
-body.dark-mode nav a:hover {
-  color: #ffffff;
-}
-</style>
+<footer>
+  <p id="footer-text">© 2026 AVD Project</p>
+</footer>
 
 <!-- JavaScript -->
 <script src="theme.js"></script>
