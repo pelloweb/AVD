@@ -1,4 +1,19 @@
 let currentLang = "ES";
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+
+    const themeBtn = document.getElementById("theme-toggle-btn");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeBtn.textContent = currentLang === "ES"
+            ? "Modo claro ☀️"
+            : "Light mode ☀️";
+    } else {
+        themeBtn.textContent = currentLang === "ES"
+            ? "Modo oscuro 🌙"
+            : "Dark mode 🌙";
+    }
+}
 
 function toggleLanguage() {
     const langBtn = document.getElementById("lang-toggle-btn");
