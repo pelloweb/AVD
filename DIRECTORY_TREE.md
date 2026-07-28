@@ -10,8 +10,8 @@
 ├── 09. Jurisdiction.md
 ├── 10. Jurisdiccion_Español.md
 ├── 11. CHANGELOG.md
-├── 11. CHANGELOG_ES.md
 ├── 12. Future work AVD.md
+├── 12. Registro de Cambios.md
 ├── 12. WEBSITE.txt
 ├── 13. Continuidad_AVD.md
 ├── 14. Release Notes oficiales de AVD
