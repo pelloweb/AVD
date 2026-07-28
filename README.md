@@ -72,7 +72,7 @@ Este proyecto es de código abierto y se rige por los siguientes documentos:
 
 El proyecto cuenta con una web oficial desplegada mediante GitHub Pages.
 
-- 🌍 [**Website (EN)**](17.%20Website.md) — Información sobre la presencia web del proyecto.  
+- 🌍 [**Website (EN)**](17.%20Website.md) — Project Website.  
 - 🌍 [**Sitio Oficial (ES)**](18.%20Sitio_Oficial.md) — Información sobre la presencia web del proyecto.  
 - 💻 [**Código fuente de la web**](docs/) — Archivos HTML, CSS y JS de GitHub Pages.
 
