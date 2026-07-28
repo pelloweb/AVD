@@ -16,7 +16,7 @@
 ├── 15. Release Notes.md
 ├── 16. Notas de Lanzamiento.md
 ├── 17. Website.md
-├── 18. Sitio Oficial.txt
+├── 18. Sitio Oficial.md
 ├── DIRECTORY_TREE.md
 ├── README.md
 └── docs
