@@ -1,160 +1,81 @@
-# 📘 AVD — Adaptive Vision Dynamics  
-### *Documentación técnica oficial — Official Technical Documentation*
+# 📘 AVD — Adaptive Visual Dynamics  
+### *Estándar técnico emergente para interfaces digitales accesibles*
+
+> **🌐 Sitio Web Oficial / Official Website:**  
+> 👉 [https://pellowweb.github.io/AVD/](https://pellowweb.github.io/AVD/)  
+> *(Reemplaza esta URL con la dirección real de tu GitHub Pages si es diferente)*
 
 ---
 
 ## 📑 Tabla de contenidos — Table of Contents
 1. [📘 Introducción — Introduction](#-introducción--introduction)  
-2. [📂 Documentación principal — Main Documentation](#-documentación-principal--main-documentation)  
-3. [🧭 Estructura del proyecto — Project Structure](#-estructura-del-proyecto--project-structure)  
-4. [📄 Documentos técnicos — Technical Documents](#-documentos-técnicos--technical-documents)  
-5. [🔧 Automatización — Automation](#-automatización--automation)  
-6. [📜 Licencia — License](#-licencia--license)  
-7. [🌐 Sitio web — Website](#-sitio-web--website)  
-8. [🚀 Estado del proyecto — Project Status](#-estado-del-proyecto--project-status)  
-9. [🤝 Transparencia y Agradecimientos — Transparency and Acknowledgments](#-transparencia-y-agradecimientos--transparency-and-acknowledgments)
-10. [🧩 Contribuciones — Contributions](#-contribuciones--contributions)
+2. [📂 Documentación Central — Core Documentation](#-documentación-central--core-documentation)  
+3. [📄 Especificaciones Técnicas — Technical Specifications](#-especificaciones-técnicas--technical-specifications)  
+4. [⚖️ Marco Legal — Legal Framework](#️-marco-legal--legal-framework)  
+5. [🤖 Transparencia y Uso de IA — Transparency & AI Usage](#-transparencia-y-uso-de-ia--transparency--ai-usage)  
+6. [🧩 Contribuciones — Contributions](#-contribuciones--contributions)
 
 ---
 
-# 📘 Introducción — Introduction
+## 📘 Introducción — Introduction
 
 **ES:**  
-AVD es un concepto técnico orientado a la accesibilidad adaptativa, la interacción inteligente y la documentación estructurada. Este repositorio reúne todos los documentos oficiales del proyecto, organizados de forma clara y mantenidos automáticamente.
+Adaptive Visual Dynamics (AVD) es un estándar técnico emergente que transforma parámetros optométricos corregibles en reglas visuales adaptativas para interfaces digitales. Su objetivo es mejorar la legibilidad y la accesibilidad mediante ajustes dinámicos de tamaño de texto, contraste, espaciado y densidad visual.
 
 **EN:**  
-AVD is a technical concept focused on adaptive accessibility, intelligent interaction, and structured documentation. This repository contains all official project documents, clearly organized and automatically maintained.
+Adaptive Visual Dynamics (AVD) is an emerging technical standard that transforms correctable optometric parameters into adaptive visual rules for digital interfaces. Its goal is to improve readability and accessibility through dynamic adjustments of text size, contrast, spacing, and visual density.
 
 ---
 
-# 📂 Documentación principal — Main Documentation
+## 📂 Documentación Central — Core Documentation
 
-📘 **English Documentation**  
-👉 `https://github.com/pelloweb/AVD/blob/main/01.%20README.md`
+El proyecto mantiene una documentación completa, sincronizada y bilingüe.
 
-📙 **Documentación en Español**  
-👉 `https://github.com/pelloweb/AVD/blob/main/02.%20LEEME.md`
-
----
-
-# 🧭 Estructura del proyecto — Project Structure
-
-La estructura completa del repositorio se actualiza automáticamente en cada push mediante GitHub Actions.
-
-👉 `https://github.com/pelloweb/AVD/blob/main/DIRECTORY_TREE.md`  
-*(Actualizado automáticamente — Automatically updated)*
+| Idioma | Documento Principal | Notas de la Versión (v1.0) |
+| :--- | :--- | :--- |
+| 🇬🇧 **English** | [README.md](README.md) | [RELEASE_NOTES.md](RELEASE_NOTES.md) |
+| 🇪🇸 **Español** | [README_es.md](README_es.md) | [RELEASE_NOTES_es.md](RELEASE_NOTES_es.md) |
 
 ---
 
-# 📄 Documentos técnicos — Technical Documents
+## 📄 Especificaciones Técnicas — Technical Specifications
 
-### 🇬🇧 English
+Documentación detallada sobre el funcionamiento, arquitectura y evolución del estándar.
 
-- **AVD Technical Sheet — Full Technical Document**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/03.%20AVD%20Technical%20Sheet%20-%20Full%20Technical%20Document.md`
-
-- **Algorithm_AVD.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/05.%20Algorithm_AVD.md`
-
-### 🇪🇸 Español
-
-- **Ficha_Tecnica_AVD.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/04.%20Ficha_Tecnica_AVD.md`
-
-- **Algoritmo_AVD.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/06.%20Algoritmo_AVD.md`
-
-### 📜 Legal / Licencias
-
-- **LICENSE**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/07.%20LICENSE`
-
-- **Licencia_Español.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/08.%20Licencia_Español.md`
-
-- **Jurisdiccion.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/09.%20Jurisdiccion.md`
-
-### 📝 Otros documentos
-
-- **CHANGELOG.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/10.%20CHANGELOG.md`
-
-- **WEBSITE.txt**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/11.%20WEBSITE.txt`
-
-- **Future work AVD.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/12.%20Future%20work%20AVD.md`
-
-- **Continuidad_AVD.md**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/13.%20Continuidad_AVD.md`
-
-- **Release Notes oficiales de AVD**  
-  👉 `https://github.com/pelloweb/AVD/blob/main/14.%20Release%20Notes%20oficiales%20de%20AVD`
+- 🇬🇧 [AVD Technical Sheet](AVD_Technical_Sheet.md) | 🇪🇸 [Ficha Técnica AVD](Ficha_Tecnica_AVD_es.md)
+- 🇬🇧 [AVD Algorithm](Algorithm_AVD.md) | 🇪🇸 [Algoritmo AVD](Algoritmo_AVD_es.md)
+- 🗺️ [Roadmap y Trabajo Futuro](Future_work_AVD.md) / [Continuidad AVD](Continuidad_AVD_es.md)
+- 🔄 [Estructura del Repositorio](DIRECTORY_TREE.md) *(Actualizado automáticamente)*
 
 ---
 
-# 🔧 Automatización — Automation
+## ⚖️ Marco Legal — Legal Framework
 
-Este repositorio incluye un workflow de GitHub Actions que:
+Este proyecto es de código abierto y se rige por los siguientes documentos:
 
-- Genera automáticamente el árbol de directorios.  
-- Actualiza `DIRECTORY_TREE.md`.  
-- Realiza commits automáticos cuando la estructura cambia.  
-
-**ES:** Esto garantiza que la documentación esté siempre sincronizada con el contenido real.  
-**EN:** This ensures that documentation is always synchronized with the actual repository content.
+- 📜 [**MIT License**](LICENSE) *(Versión oficial vinculante / Binding official version)*
+- 📜 [**Licencia MIT (Español)**](LICENSE_es.md) *(Traducción meramente informativa)*
+- ⚖️ [**Jurisdicción Preferente**](Jurisdiccion.md) / [**Preferred Jurisdiction**](Jurisdiction.md)
 
 ---
 
-# 📜 Licencia — License
+## 🤖 Transparencia y Uso de IA — Transparency & AI Usage
 
-Este proyecto incluye:
-
-- **LICENSE** — versión oficial en inglés.  
-- **Licencia_Español.md** — versión en español.  
-- **Jurisdiccion.md** — detalles legales adicionales.  
-
----
-
-# 🌐 Sitio web — Website
-
-👉 `https://github.com/pelloweb/AVD/blob/main/11.%20WEBSITE.txt`
-
-Información sobre la presencia web del proyecto.
-
----
-
-# 🚀 Estado del proyecto — Project Status
+> ⚠️ **AI Transparency Notice:** This project was developed under the full direction, supervision, and final responsibility of **Pelloweb**. AI tools were used as assistants for tasks such as code structuring, drafting, and documentation. All final content has been reviewed, validated, and curated by human authorship, in alignment with the transparency principles of the EU AI Act.
 
 **ES:**  
-AVD es un concepto en evolución. Los documentos *Future work AVD* y *Continuidad_AVD* detallan las líneas de desarrollo previstas. El concepto base del sistema ya está asentado y el proyecto opera bajo licencia MIT.
-
-**EN:**  
-AVD is an evolving concept. The *Future work AVD* and *Continuidad_AVD* documents describe the planned development lines. The base concept of the system is already established, and the project operates under an MIT license.
+Este proyecto ha sido desarrollado con la asistencia de herramientas de Inteligencia Artificial Generativa como apoyo técnico. La dirección creativa, las decisiones de diseño, la validación de la lógica del estándar y la responsabilidad final recaen exclusivamente en el autor humano (**Pelloweb**). Este enfoque garantiza la transparencia y se alinea con los principios de *Privacy by Design* y la normativa vigente (RGPD y AI Act).
 
 ---
 
-# 🤝 Transparencia y Agradecimientos — Transparency and Acknowledgments
+## 🧩 Contribuciones — Contributions
 
-**ES:**  
-Este proyecto ha sido desarrollado con la asistencia de herramientas de Inteligencia Artificial Generativa. La IA ha actuado como asistente técnico en la generación de código, revisión de arquitectura, redacción de documentación y resolución de problemas lógicos.  
-La dirección creativa, las decisiones de diseño, la validación de la lógica del estándar AVD y la responsabilidad final sobre el código recaen exclusivamente en el autor humano y los colaboradores del proyecto (pelloweb).  
-Este enfoque se alinea con nuestro compromiso de transparencia, del mismo modo que el sistema AVD está diseñado para procesar los datos del usuario de forma local y segura, cumpliendo con los principios de *Privacy by Design* y la normativa vigente (RGPD y AI Act).
+Este repositorio está orientado a la documentación técnica y al desarrollo del estándar AVD. Si deseas contribuir:
 
-**EN:**  
-This project has been developed with the assistance of Generative Artificial Intelligence tools. AI has acted as a technical assistant in code generation, architecture review, documentation drafting, and logical problem-solving.  
-The creative direction, design decisions, validation of the AVD standard logic, and final responsibility for the code rest exclusively with the human author and project contributors (pelloweb).  
-This approach aligns with our commitment to transparency, just as the AVD system is designed to process user data locally and securely, complying with *Privacy by Design* principles and current regulations (GDPR and AI Act).
+1. Abre un **Issue** para discutir ideas, proponer mejoras o reportar problemas.  
+2. Envía una **Pull Request** con tus correcciones o ampliaciones documentales.  
+
+Todas las aportaciones serán revisadas con gusto y respeto a la visión del proyecto.
 
 ---
-
-# 🧩 Contribuciones — Contributions
-
-Este repositorio está orientado a documentación técnica y al desarrollo del estándar AVD.  
-Si deseas contribuir:
-
-- Abre un **issue** para discutir ideas o reportar problemas.  
-- Envía una **pull request** con tus mejoras o correcciones.  
-
-Con gusto se revisarán todas las aportaciones.
+*© 2026 Pelloweb. Released under the MIT License.*
