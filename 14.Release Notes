@@ -1,0 +1,68 @@
+# **AVD — Release Notes (v1.0)**
+
+## **Adaptive Visual Dynamics (AVD) — Official Public Release**
+
+AVD reaches its first public version as an **emerging technical standard** designed to transform correctable optometric parameters into **adaptive visual rules** applicable to any digital interface.  
+This release marks the complete publication of bilingual documentation and the consolidation of the algorithm as an open specification.
+
+---
+
+## **📘 Documentation included in this version**
+
+- **README** — Main documentation in English  
+- **README_es** — Spanish version of the README  
+- **Technical Sheet** — Complete description of the standard  
+- **AVD Algorithm** — Detailed algorithmic procedure  
+- **Jurisdiction** — Informative note on legal interpretation  
+- **MIT License** — Official English version + informative translation  
+
+All documentation is available in **English and Spanish**, ensuring international accessibility and clarity.
+
+---
+
+## **🔧 Main features of version 1.0**
+
+- Complete definition of the **AVD algorithmic procedure**  
+- Normalization of optometric parameters: Sphere, Cylinder, Axis, Addition  
+- Generation of adaptive visual rules:  
+  - text size  
+  - minimum contrast  
+  - line and paragraph spacing  
+  - optimal visual density  
+- Construction of the **AVD visual profile**  
+- Bilingual technical documentation  
+- Repository structure prepared for future extensions  
+- Official MIT License included
+
+---
+
+## **📂 Changes and improvements from internal versions**
+
+- Complete rewrite of README and Spanish version  
+- Terminological unification between English and Spanish  
+- Technical sheet revised and expanded  
+- Algorithm documented step by step  
+- Inclusion of jurisdiction note  
+- Official informative translation of the MIT License  
+- Repository structure reorganized and professionalized  
+- Preparation for future standardization
+
+---
+
+## **🚀 Next steps**
+
+- Development of implementation prototypes  
+- Validation with real users  
+- Integration with accessibility frameworks  
+- AI-assisted customization  
+- Publication of extended documentation  
+- Formal standardization process for the AVD standard
+
+---
+
+## **👤 Author**
+
+**Pelloweb**  
+Creator of the AVD algorithmic procedure.
+
+⚠️ AI Transparency Notice: This project was developed under the full direction, supervision, and final responsibility of Pelloweb. AI tools were used as assistants for tasks such as code structuring, drafting, and documentation. All final content has been reviewed, validated, and curated by human authorship, in alignment with the transparency principles of the EU AI Act.
