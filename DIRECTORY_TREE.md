@@ -13,7 +13,7 @@
 ├── 12. Registro de Cambios.md
 ├── 13. Future work AVD.md
 ├── 14. Continuidad_AVD.md
-├── 15. Release Notes
+├── 15. Release Notes.md
 ├── 16. Release Notes oficiales de AVD
 ├── 17. Website.md
 ├── 18. Sitio Oficial.txt
