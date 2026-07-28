@@ -14,7 +14,7 @@
 ├── 13. Future work AVD.md
 ├── 14. Continuidad_AVD.md
 ├── 15. Release Notes.md
-├── 16. Release Notes oficiales de AVD
+├── 16. Notas de Lanzamiento.md
 ├── 17. Website.md
 ├── 18. Sitio Oficial.txt
 ├── DIRECTORY_TREE.md
