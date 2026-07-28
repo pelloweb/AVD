@@ -8,8 +8,8 @@
 ├── 07. LICENSE
 ├── 08. Licencia_Español.md
 ├── 09. Jurisdiccion.md
-├── 10. CHANGELOG.md
 ├── 10. Jurisdiction
+├── 11. CHANGELOG.md
 ├── 12. Future work AVD.md
 ├── 12. WEBSITE.txt
 ├── 13. Continuidad_AVD.md
